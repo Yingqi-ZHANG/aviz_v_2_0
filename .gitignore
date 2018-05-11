@@ -3,3 +3,8 @@ extractData/.ipynb_checkpoints
 extractData/textACPR.txt
 node_modules
 testDoc
+.ipynb_checkpoints
+*.pyc
+extractData/Output.txt
+interfaceWeb/test.html
+pathAndFile.ipynb

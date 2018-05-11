@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aviz V_2.0</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>Aviz V_2.0</h1>
+  <div class="box" id="upperBox">
+    <div class="module" id="inputPath">
+      <form class="input" action="index.html" method="post">
+        Entrez le répertoire: <input type="text" id="folderPath" name="folderPath">
+        <button type="button" name="button" onclick="submitPath()"  id="selectPath">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+  <div class="box" id = "middleBox">
+    <div class="module" id = "dbQuery">
+      <button type="button" name="button" onclick="sendQuery(this)">Get Info</button>
+    </div>
+    <div class="module" id = "dbResult">
+
+    </div>
+  </div>
+
+</body>
+
+<script type="text/javascript">
+submitPath = function (){
+  var folderPath = $("#folderPath").val();
+  console.log(folderPath);
+  $.post("/sp",{path:folderPath},(res)=>{
+    console.log(res);
+  },"json")
+  //$.post("demo_ajax_gethint.asp", {suggest: txt}, function(result){
+  //        $("span").html(result);
+}
+sendQuery = function (){
+  var requete = {
+
+  };
+  $.post("/query",requete,(res)=>{
+    console.log(res);
+  },"json")
+}
+
+
+</script>
+</html>

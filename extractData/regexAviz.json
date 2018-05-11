@@ -1,0 +1,117 @@
+[
+  {
+    "type":"CNS",
+    "typeRegexPattern":"",
+    "dataRegexPatterns":[
+      {"data":"numDossier",
+        "name":"Numéro de dossier",
+        "dataRegexPatterns":""
+      },
+      {"data":"dateDAudience",
+        "name":"Date d'audience",
+        "dataRegexPatterns":""
+      },
+      {"data":"dateDeDecision",
+        "name":"Date de décision",
+        "dataRegexPatterns":""
+      },
+      {"data":"president",
+        "name":"Président",
+        "dataRegexPatterns":""
+      },
+      {"data":"commission",
+        "name":"Commission",
+        "dataRegexPatterns":""
+      },
+      {"data":"textesDAppui",
+        "name":"Testes d'appui",
+        "dataRegexPatterns":""
+      },
+      {"data":"resume",
+        "name":"Résumé",
+        "dataRegexPatterns":""
+      }
+    ]
+  },
+  {
+    "type":"ACPR",
+    "typeRegexPattern":"",
+    "dataRegexPatterns":[
+      {"data":"numDeProcedure",
+        "name":"Num de procédure",
+        "dataRegexPatterns":""
+      },
+      {"data":"misEnCause",
+        "name":"Mis en cause",
+        "dataRegexPatterns":""
+      },
+      {"data":"dateDAudience",
+        "name":"Date d'audience",
+        "dataRegexPatterns":""
+      },
+      {"data":"dateDeDecision",
+        "name":"Date de décision",
+        "dataRegexPatterns":""
+      },
+      {"data":"quantum",
+        "name":"Quantum",
+        "dataRegexPatterns":""
+      },
+      {"data":"president",
+        "name":"Président",
+        "dataRegexPatterns":""
+      },
+      {"data":"commission",
+        "name":"Commission",
+        "dataRegexPatterns":""
+      },
+      {"data":"grief",
+        "name":"Grief",
+        "dataRegexPatterns":""
+      },
+      {"data":"representants",
+        "name":"Représentants",
+        "dataRegexPatterns":""
+      },
+      {"data":"rapporteur",
+        "name":"Rapporteur",
+        "dataRegexPatterns":""
+      },
+      {"data":"textesDAppui",
+        "name":"Testes d'appui",
+        "dataRegexPatterns":""
+      }
+    ]
+  },
+  {
+    "type":"",
+    "typeRegexPattern":"",
+    "dataRegexPatterns":[
+      {"data":"",
+        "name":"",
+        "dataRegexPatterns":""
+      },
+      {"data":"",
+        "name":"",
+        "dataRegexPatterns":""
+      },
+      {"data":"",
+        "name":"",
+        "dataRegexPatterns":""
+      },
+      {"data":"",
+        "name":"",
+        "dataRegexPatterns":""
+      },
+      {"data":"",
+        "name":"",
+        "dataRegexPatterns":""
+      },
+      {"data":"",
+        "name":"",
+        "dataRegexPatterns":""
+      }
+    ]
+
+  }
+]
