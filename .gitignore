@@ -1,2 +1,5 @@
 
-extractData/.ipynb_checkpoints/extractData_text-checkpoint.ipynb
+extractData/.ipynb_checkpoints
+extractData/textACPR.txt
+node_modules
+testDoc
